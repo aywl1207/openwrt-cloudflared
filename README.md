@@ -2,7 +2,7 @@
 
 OpenWRT package of Cloudflare Tunnel client (Cloudflared) compiled against [Go with Cloudflare experimental patches](https://github.com/cloudflare/go).
 
-[![Build](https://github.com/MoetaYuko/openwrt-cloudflared/actions/workflows/build.yml/badge.svg)](https://github.com/MoetaYuko/openwrt-cloudflared/actions/workflows/build.yml)
+[![Build](https://github.com/aywl1207/openwrt-cloudflared/actions/workflows/build.yml/badge.svg)](https://github.com/aywl1207/openwrt-cloudflared/actions/workflows/build.yml)
 
 ## Why?
 

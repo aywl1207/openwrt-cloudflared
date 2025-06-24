@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=golang
-PKG_VERSION := 1.22.12+devel-cf
+PKG_VERSION := 1.22.12-devel-cf
 PKG_RELEASE := r1
 
 GO_SOURCE_URLS:=https://dl.google.com/go/ \

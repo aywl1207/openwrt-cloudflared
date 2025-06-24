@@ -7,12 +7,9 @@
 
 include $(TOPDIR)/rules.mk
 
-GO_VERSION_MAJOR_MINOR:=1.22.12+devel-cf
-GO_VERSION_PATCH:=r1
-
 PKG_NAME:=golang
-PKG_VERSION := $(GO_VERSION_MAJOR_MINOR)$(if $(GO_VERSION_PATCH),-$(GO_VERSION_PATCH))
-PKG_RELEASE:=1
+PKG_VERSION := 1.22.12+devel-cf
+PKG_RELEASE := r1
 
 GO_SOURCE_URLS:=https://dl.google.com/go/ \
                 https://mirrors.ustc.edu.cn/golang/ \

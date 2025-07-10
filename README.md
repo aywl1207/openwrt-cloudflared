@@ -4,6 +4,9 @@ OpenWRT package of Cloudflare Tunnel client (Cloudflared) compiled against [Go w
 
 [![Build](https://github.com/MoetaYuko/openwrt-cloudflared/actions/workflows/build.yml/badge.svg)](https://github.com/MoetaYuko/openwrt-cloudflared/actions/workflows/build.yml)
 
+## Archive note
+Great News!!, as indicated by https://github.com/cloudflare/cloudflared/commit/43a3ba347b49d75ae6b92d5e040ed5a17a616ca6, the post-quantum encryption are already supported by upstream go 1.24. Hence, this project can be retired. Please use the official OpenWrt cloudflared packages for the installation.
+
 ## Why?
 
 OpenWRT has an official package[^1] for Cloudflared that appears to work well. However, Cloudflared has to be compiled with a fork of go to support post-quantum encryption since version 2024.1.0[^2]. Unfortunately, OpenWRT maintainers refuse[^3] to compile it against the downstream patched Go and continue to use the official Go, resulting in broken Cloudflared binaries with the following runtime errors:
